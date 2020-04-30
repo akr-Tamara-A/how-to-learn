@@ -1,6 +1,7 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  transition: opacity .5s ease;
 }
 
 .footer__column-links:last-of-type {
@@ -8,5 +9,5 @@
 }
 
 .footer__column-link:hover {
-  text-decoration: underline;
+  opacity: .5;
 }

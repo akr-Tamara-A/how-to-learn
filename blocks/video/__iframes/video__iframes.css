@@ -1,4 +1,8 @@
 .video__iframes {
   margin-top: 50px;
-  border: 1px solid hotpink;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  
+  height: 286px;
 }
