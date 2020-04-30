@@ -1,0 +1,16 @@
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  z-index: 1;
+}
+
+.feynman__link:hover {
+  text-decoration: underline;
+}
