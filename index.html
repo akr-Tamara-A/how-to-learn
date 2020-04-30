@@ -43,35 +43,35 @@
         <div class="cards">
           <div class="cards__item">                                       <!----------------- Card 1 ---------------------->
             <div class="cards__image-wrapper">
-              <a href="#" class="cards__image" alt="cards-attention"></a>
+              <img src="./blocks/cards/__image/cards-attention.png" class="cards__image" alt="cards-attention">
             </div>
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
           <div class="cards__item">                                       <!----------------- Card 2 ---------------------->
             <div class="cards__image-wrapper">
-              <a href="#" class="cards__image" alt="cards-recall"></a>
+              <img src="./blocks/cards/__image/cards-recall.png" class="cards__image" alt="cards-recall">
             </div>
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
           <div class="cards__item">                                       <!----------------- Card 3 ---------------------->
             <div class="cards__image-wrapper">
-              <a href="#" class="cards__image" alt="cards-interliving"></a>
+              <img src="./blocks/cards/__image/cards-interliving.png" class="cards__image" alt="cards-interliving">
             </div>
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">                                       <!----------------- Card 4 ---------------------->
             <div class="cards__image-wrapper">
-              <a href="#" class="cards__image" alt="cards-question"></a>
+              <img src="./blocks/cards/__image/cards-question.png" class="cards__image" alt="cards-question">
             </div>
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
           <div class="cards__item">                                       <!----------------- Card 5 ---------------------->
             <div class="cards__image-wrapper">
-              <a href="#" class="cards__image" alt="cards-competence"></a>
+              <img src="./blocks/cards/__image/cards-competence.png" class="cards__image" alt="cards-competence">
             </div>
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
@@ -82,8 +82,12 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <video src="https://www.youtube.com/watch?v=arj7oStGLkU" class="video__iframe"></video>
-          <video src="https://www.youtube.com/watch?v=5MgBikgcWnY" class="video__iframe"></video>
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  
+          class="video__iframe"></iframe>
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
+          class="video__iframe"></iframe>
         </div>
       </section>
       <section class="oakley">           <!----------- oakley ------------>
@@ -95,6 +99,12 @@
               Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. 
               Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div>
+      </section>
+      <section class="feynman" id="feynman">            <!---------- feynman ----------->
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#kaufman" class="feynman__link">Подробнее &rarr;</a>
+        <img src="./blocks/feynman/__image/feynman.png" alt="Фейман" class="feynman__image">
       </section>
       <section class="digits">         <!------------ digits ------->
         <h2 class="section-title">Цифры и факты</h2>
@@ -136,7 +146,6 @@
           </div>
         </div>
       </section>
-
       <section class="khan">            <!--------- khan ---------->
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
@@ -148,18 +157,10 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="./blocks/khan/__book-pic/khan-book.jpg" class="khan__book-pic" alt="">
-            <a href="#" class="khan__buy-link"></a>
+            <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
-
-      <section class="feynman" id="feynman">            <!---------- feynman ----------->
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#kaufman" class="feynman__link">Подробнее &rarr;</a>
-        <img src="./blocks/feynman/__image/feynman.png" alt="Фейман" class="feynman__image">
-      </section>
-
       <section class="kaufman" id="kaufman">                 <!----------- kaufman ------------>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>

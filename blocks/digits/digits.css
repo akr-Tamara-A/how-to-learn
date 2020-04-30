@@ -10,5 +10,5 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }

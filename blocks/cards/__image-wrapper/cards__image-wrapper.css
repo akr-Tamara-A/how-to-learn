@@ -1,0 +1,8 @@
+.cards__image-wrapper {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 60px 40px 0 40px;
+  border: 1px solid aqua;
+}
