@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-  <div class="page">            <!------------------------------------------------------------------>
+  <div class="page">           
     <header class="header">          <!------ Header ------>
       <img src="./image/logo_place_header.svg" class="logo logo_place_header" alt="Лого Яндекс.Практикум">
       <h1 class="header__title">Научиться учиться</h1>
@@ -82,16 +82,10 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="Inside the mind of a master procrastinator. Tim Urban" frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-            ></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first 20 hours - how to learn anything. Josh Kaufman" frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-            ></iframe>
-          </div>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="Inside the mind of a master procrastinator. Tim Urban" 
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first 20 hours - how to learn anything. Josh Kaufman" 
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">           <!----------- oakley ------------>
@@ -220,13 +214,13 @@
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
           <a href="https://arzamas.academy/" target="blank" class="resources__logo-link">
-            <img src="./image/resources-arzamas.svg" class="resources__logo" alt="Сайт Arzamas.academy"></a>
+            <img src="./image/resources-arzamas.svg" class="resources__logo" title="Сайт Arzamas.academy" alt="Сайт Arzamas.academy"></a>
           <a href="https://nplus1.ru/" target="blank" class="resources__logo-link">
-            <img src="./image/resources-n1.svg" class="resources__logo" alt="Сайт N+1"></a>  
+            <img src="./image/resources-n1.svg" class="resources__logo" title="Научный журнал N+1" alt="Сайт N+1"></a>  
           <a href="https://strelka.com/" target="blank" class="resources__logo-link">
-            <img src="./image/resources-strelka.svg" class="resources__logo" alt="Сайт Институт Стрелка"></a> 
+            <img src="./image/resources-strelka.svg" class="resources__logo" title="Сайт Институт Стрелка" alt="Сайт Институт Стрелка"></a> 
           <a href="https://polka.academy/" target="blank" class="resources__logo-link">
-            <img src="./image/resources-polka.svg" class="resources__logo" alt="Сайт Полка"></a> 
+            <img src="./image/resources-polka.svg" class="resources__logo" title="Сайт Полка" alt="Образовательный проект Полка"></a> 
         </div>
       </section>
     </main>
@@ -235,7 +229,7 @@
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
           <img src="./image/logo_place_footer.svg" alt="Лого Яндекс.Практикум" class="logo logo_place_footer">
-          <p class="footer__author">&copy;2020. Tamara Andreeva</p>
+          <a href="https://github.com/akr-Tamara-A" target="blank" class="footer__author">&copy;2020. Tamara Andreeva</a>
         </div>
         <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
@@ -259,5 +253,5 @@
       </div>
     </footer>
   </div>
-</body>              <!-------------------------------------------------------------->
+</body>              
 </html>
