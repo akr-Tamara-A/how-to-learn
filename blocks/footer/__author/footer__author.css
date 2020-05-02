@@ -5,4 +5,9 @@
   margin: 0;
   text-decoration: none;
   color: white;
+  transition: opacity .5s ease;
+}
+
+.footer__author:hover {
+  opacity: .5;
 }
