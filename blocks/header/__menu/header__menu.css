@@ -1,0 +1,10 @@
+.header__menu {
+  position: relative;
+  width: 100%;
+  background-color: rgba(31, 31, 31, .9);
+  box-shadow: 0 0 2px 5px rgba(31, 31, 31, 0.3);
+  display: flex;
+  justify-content: space-between;
+  padding: .7rem 0 .5rem 0;
+  z-index: 100;
+}

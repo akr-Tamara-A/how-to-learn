@@ -1,0 +1,13 @@
+.menu__form-button {
+  padding: 0 2em;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 1.125em;
+  font-weight: normal;
+  text-decoration: none;
+  transition: opacity .5s ease;
+}
+
+.menu__form-button:hover {
+  opacity: .5;
+}

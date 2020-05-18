@@ -3,8 +3,9 @@
   line-height: 0.941;
   font-size: 6.375em;
   font-weight: bold;
-  align-self: center;
-  padding-left: 64px;
+  position: absolute;
+  top: 40%;  
+  padding-left: 4rem;
   margin: 0;
   z-index: 3;
 }
